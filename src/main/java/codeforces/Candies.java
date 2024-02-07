@@ -1,14 +1,14 @@
 package codeforces;
 
 public class Candies {
-    public static int candies(int n , int m){
-        int c = n/m , d = n%m;
-        int result =0;
-        for (int i=0;i<m-d;i++){
+    public static int candies(int n, int m) {
+        int c = n / m, d = n % m;
+        int result = 0;
+        for (int i = 0; i < m - d; i++) {
             result += c;
         }
-        for (int j=0;j<d;j++){
-            result += c+1;
+        for (int j = 0; j < d; j++) {
+            result += c + 1;
         }
         return result;
     }
