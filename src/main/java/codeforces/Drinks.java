@@ -1,6 +1,6 @@
 package codeforces;
 
-public class Drinks200 {
+public class Drinks {
     public static float drinkcalculator(int[] drink) {
         int len = drink.length, sum = 0, total = len * 100;
         for (int i = 0; i < len; i++) {

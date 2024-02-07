@@ -1,6 +1,6 @@
 package codeforces;
 
-public class Soroban363 {
+public class Soroban {
     public static void soroban(int num) {
         if (num == 0) {
             System.out.println("O-|-OOOO");
@@ -13,3 +13,12 @@ public class Soroban363 {
         }
     }
 }
+
+/*
+ main
+ public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        soroban(num);
+    }
+ */
